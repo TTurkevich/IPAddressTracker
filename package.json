@@ -1,0 +1,21 @@
+{
+  "name": "geo",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "babe": "0.0.1",
+    "babel-polyfill": "^6.26.0",
+    "l": "^0.6.0",
+    "leaflet": "^1.9.3"
+  }
+}
