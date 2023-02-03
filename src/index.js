@@ -1,4 +1,4 @@
-import "babel-polyfill";
+// import "babel-polyfill";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { addTileLayer, validateIp, getAddress, addOffset } from "./helpers";
