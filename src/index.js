@@ -1,5 +1,5 @@
-import "../node_modules/babel-polyfill";
-import "../node_modules/leaflet/dist/leaflet.css";
+import "./babel-polyfill";
+import "./leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { addTileLayer, validateIp, getAddress, addOffset } from "./helpers";
 import icon from "../images/icon-location.svg";
